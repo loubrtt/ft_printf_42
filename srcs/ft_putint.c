@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putint.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
+/*   By: lobriott <lobriott@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 23:18:29 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/18 14:04:16 by loubriottet      ###   ########.fr       */
+/*   Updated: 2025/11/14 19:47:52 by lobriott         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "../includes/ft_printf.h"
 
 static int	ft_putcharvoid(char c)
 {

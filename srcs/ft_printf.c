@@ -6,14 +6,11 @@
 /*   By: lobriott <lobriott@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 23:12:52 by lobriott          #+#    #+#             */
-/*   Updated: 2025/04/17 13:26:45 by lobriott         ###   ########.fr       */
+/*   Updated: 2025/11/14 19:48:25 by lobriott         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
-#include <limits.h>
-#include <stdarg.h>
-#include <unistd.h>
+#include "../includes/ft_printf.h"
 
 int	ft_printf(const char *format, ...)
 {

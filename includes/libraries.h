@@ -1,21 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_iscspdiux.c                                     :+:      :+:    :+:   */
+/*   libraries.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lobriott <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: lobriott <lobriott@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/12 01:52:58 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/12 01:54:00 by lobriott         ###   ########.fr       */
+/*   Created: 2025/11/14 19:46:44 by lobriott          #+#    #+#             */
+/*   Updated: 2025/11/14 19:49:37 by lobriott         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#ifndef LIBRARIES_H
+# define LIBRARIES_H
 
-int	ft_iscspdiux(char c)
-{
-	if (c == 'c' || c == 's' || c == 'p' || c == 'd' || c == 'i' || c == 'u'
-		|| c == 'x' || c == 'X' || c == '%')
-		return (1);
-	return (0);
-}
+# include <stddef.h>
+# include <unistd.h>
+# include <limits.h>
+# include <stdlib.h>
+# include <stdarg.h>
+
+#endif

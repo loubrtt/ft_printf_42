@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lobriott <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: lobriott <lobriott@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 23:19:40 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/11 23:19:53 by lobriott         ###   ########.fr       */
+/*   Updated: 2025/11/14 19:47:55 by lobriott         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "../includes/ft_printf.h"
 
 int	ft_putstr(char *str)
 {

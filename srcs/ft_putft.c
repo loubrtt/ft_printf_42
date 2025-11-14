@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putft.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
+/*   By: lobriott <lobriott@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 23:14:30 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/18 14:02:15 by loubriottet      ###   ########.fr       */
+/*   Updated: 2025/11/14 19:48:55 by lobriott         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
-#include <stdarg.h>
-#include <unistd.h>
+#include "../includes/ft_printf.h"
 
 int	ft_putft(char c, va_list arg)
 {

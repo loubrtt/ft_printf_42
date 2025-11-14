@@ -6,11 +6,11 @@
 /*   By: lobriott <lobriott@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 01:52:58 by lobriott          #+#    #+#             */
-/*   Updated: 2025/04/17 13:24:49 by lobriott         ###   ########.fr       */
+/*   Updated: 2025/11/14 19:47:29 by lobriott         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../includes/ft_printf.h"
 
 int	ft_is_valid_specifier(char c)
 {

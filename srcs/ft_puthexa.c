@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_puthexa.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
+/*   By: lobriott <lobriott@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 23:17:53 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/18 14:00:13 by loubriottet      ###   ########.fr       */
+/*   Updated: 2025/11/14 19:47:47 by lobriott         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "../includes/ft_printf.h"
 
 static int	lennum(unsigned int num)
 {

@@ -2,9 +2,10 @@ NAME    = libftprintf.a
 HEADER  = ft_printf.h
 CC      = gcc
 CFLAGS  = -Wall -Wextra -Werror
+SRCSDIR = srcs/
 
-SRC_NAMES = ft_is_valid_specifier.c ft_printf.c ft_putchar.c ft_putft.c \
-            ft_puthexa.c ft_putint.c ft_putstr.c ft_putunsigned.c ft_putvoidhexa.c
+SRC_NAMES = $(SRCSDIR)ft_is_valid_specifier.c $(SRCSDIR)ft_printf.c $(SRCSDIR)ft_putchar.c $(SRCSDIR)ft_putft.c \
+            $(SRCSDIR)ft_puthexa.c $(SRCSDIR)ft_putint.c $(SRCSDIR)ft_putstr.c $(SRCSDIR)ft_putunsigned.c $(SRCSDIR)ft_putvoidhexa.c
 
 OBJDIR  = objs
 OBJS    = $(addprefix $(OBJDIR)/, $(SRC_NAMES:.c=.o))

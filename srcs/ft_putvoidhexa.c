@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putvoidhexa.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lobriott <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: lobriott <lobriott@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 18:26:48 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/18 18:26:50 by lobriott         ###   ########.fr       */
+/*   Updated: 2025/11/14 19:48:06 by lobriott         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
-#include <stdlib.h>
-#include <unistd.h>
+#include "../includes/ft_printf.h"
 
 static void	puthexa(char *str)
 {

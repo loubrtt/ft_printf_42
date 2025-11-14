@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putunsigned.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: loubriottet <loubriottet@student.42.fr>    +#+  +:+       +#+        */
+/*   By: lobriott <lobriott@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/16 00:09:19 by lobriott          #+#    #+#             */
-/*   Updated: 2024/11/18 14:04:29 by loubriottet      ###   ########.fr       */
+/*   Updated: 2025/11/14 19:47:58 by lobriott         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "../includes/ft_printf.h"
 
 static void	ft_putchar(char c)
 {
