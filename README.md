@@ -4,7 +4,7 @@ A recreation of the printf function from the C standard library, developed as pa
 
 ## 📊 Score
 
-**100/100** ✅ Perfect Score!
+**100/100** ✅
 
 ## 🎯 Description
 
