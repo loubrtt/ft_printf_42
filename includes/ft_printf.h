@@ -6,14 +6,13 @@
 /*   By: lobriott <lobriott@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 15:10:51 by lobriott          #+#    #+#             */
-/*   Updated: 2025/04/17 13:24:39 by lobriott         ###   ########.fr       */
+/*   Updated: 2025/11/14 19:55:51 by lobriott         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
-# include <stdarg.h>
-# include <stddef.h>
+#include "libraries.h"
 
 int	ft_printf(const char *format, ...);
 int	ft_is_valid_specifier(char c);

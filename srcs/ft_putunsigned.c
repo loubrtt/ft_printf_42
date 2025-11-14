@@ -6,14 +6,15 @@
 /*   By: lobriott <lobriott@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/16 00:09:19 by lobriott          #+#    #+#             */
-/*   Updated: 2025/11/14 19:47:58 by lobriott         ###   ########.fr       */
+/*   Updated: 2025/11/14 19:57:17 by lobriott         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
 
-static void	ft_putchar(char c)
+static void	ft_putnum(char c)
 {
+	c += '0';
 	write(1, &c, 1);
 }
 
@@ -40,9 +41,9 @@ int	ft_putunsigned(unsigned int n)
 	if (n >= 10)
 	{
 		ft_putunsigned(n / 10);
-		ft_putchar((n % 10) + '0');
+		ft_putnum((n % 10));
 	}
 	else
-		ft_putchar(n + '0');
+		ft_putnum(n);
 	return (count);
 }
